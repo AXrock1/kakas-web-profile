@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
+:root {
+  bg-shade: #f5fcff;
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +36,31 @@ button {
   border: 1px solid #5e3bee;
   border-radius: 5px;
   color: #5e3bee;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  padding: 133.333px 85.333px;
+  align-items: center;
+  background-color: #f5fcff;
+  gap: 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.content span {
+  color: #5e3bee;
+}
+.header img {
+  width: 100%;
+}
+
+.call-to-action button {
+  margin-top: 2rem;
+  background-color: #5e3bee;
+  color: white;
 }
